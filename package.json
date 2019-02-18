@@ -1,0 +1,22 @@
+{
+  "name": "self-playing-war",
+  "version": "1.0.0",
+  "description": "A demonstration of the determinism of the card game \"War\" using Redux",
+  "main": "cli.mjs",
+  "scripts": {
+    "start": "node --experimental-modules ./cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "war",
+    "card",
+    "game",
+    "redux"
+  ],
+  "author": "Adam Shaylor <business@adamshaylor.com>",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.0.1"
+  },
+  "repository": "github:adamshaylor/self-playing-war"
+}
